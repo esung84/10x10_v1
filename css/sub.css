@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+#subwrap {width:1200px; height:5700px; background-color: gold; margin:0 auto;padding:30px 10px;}
+#main-product {width:1180px;height:650px; background-color: cyan; padding:10px 0;border-top:3px solid #000;}
+#photo { width:500px; height:600px; background-color: white;float:left; margin:20px 20px 0 20px;}
+#photo > #big {width:500px; height:500px; background-color: red;box-shadow: 4px 4px 4px #eee;}
+#photo > #small > img {width:50px; height:50px; margin:5px 5px 5px 0;;float:left;background-color: gold;}
+
+#choice {border-bottom:1px solid #c3c0c0; width:600px; height:500px; background-color: antiquewhite;float: left;margin: 20px;padding:20px 0;}
+#choice > h5 > a {text-decoration: none; color:gray; font-weight: bold;}
+#choice  h2 {font-size: 16px; font-weight: bold; margin:20px 0;}
+#choice > table {border-top:0.5px solid #c3c0c0;width:430px; height:80px; background-color: skyblue;}
+td:first-child {width:120px;}
+td {padding: 5px 0; font-size:13px; color:rgb(62, 62, 62);}
+#choice > p {text-align: center; font-size: 10px;padding:10px;background-color: #c3c0c0; width:430px; height:30px;}
+select > option {font-size:12px;}
+#main-product > button {font-size:12px;font-weight:bold; float:right; height:50px; width:190px; margin:0 5px;}
+#main-product > button:first-of-type{margin:0 20px 0 5px;color:gray;}
+#main-product > button:nth-of-type(2) {border:1px solid rgb(207, 10, 10);color:rgb(207, 10, 10);}
+#main-product > button:nth-of-type(3) {background-color:rgb(207, 10, 10); color: white;border:none;}
+
+#subwrap>ul {width:1180px; height:30px; background-color:red;}
+#subwrap > ul > li > a {padding:7px;text-align:center; text-decoration: none;color:#000;font-size:14px;float:left;height:30px;width:130px;border-bottom:1px solid #000;margin:0 0 70px 0;}
+#subwrap > ul > li:last-child a{padding:0px;width:660px;height:30px;border-bottom:1px solid #000; float:right;}
+#subwrap > ul > li:last-child img{width:100px; height:29px;float:right;}
+#subwrap>ul>li:first-child a{border:1px solid #000;border-bottom:none;}
+
+#list {width:970px; height:1500px; background-color:red;margin:0 auto;}
+.product { margin:10px 15px;padding:50px;width:450px; height:630px; border:1px solid #eee;text-align: center; background-color: tomato; float: left;}
+.product > .imgbox{width:350px; height:350px;position: relative;  overflow: hidden;}
+.imgbox >img{width:100%; height:100%; width: 100%;}
+.product:hover h1{transition:0.8s;color:rgb(207, 10, 10); border:1.5px solid rgb(207, 10, 10);}
+.product:hover {border:1.5px solid rgb(207, 10, 10);transition:0.8s;}
+
+.product >h1 {color:#000;width:80px; height:30px;border-radius:50px;border:1px solid #000;margin:20px 40% 10px; padding:5px;font-size: 13px;font-weight: bold;}
+.product > p {text-align: center;color:#6b6969;font-size:12px;font-weight: bold;}
+.product > p:first-of-type {color:#cbc9c9;}
+.product > p:last-of-type {color:rgb(207, 10, 10);font-size:15px;}
+
+ #detail {width:100%; height:1000px;background-color: blue; margin:0 auto;}
+
+#review {width:1100px; height:400px;  margin:0 auto;}
+#review > table {height:50px; width:100%;text-align: center;font-size:13px;border-bottom: 1px solid gray;}
+#review > table > tr, td{border-bottom: 1px solid gray;}
+#review  td:first-of-type {width:100px;}
+#review  td:nth-of-type(2) {text-align:left;width:700px;}
+#review  td:nth-of-type(3) {width:150px;text-align:left;}
+#review  td:nth-of-type(4) {width:100px;text-align:left;}
+#review > ul{height:40px; width:100%; border-bottom: 1px solid gray;}
+#review > ul > li {float:left;font-size:14px;width:130px;padding:13px 0 12px 0; text-align: center;}
+#review > ul > li:first-of-type{background-color:gray;}
+#review > ul > li:nth-of-type(2){background-color:#eee;}
+
+
+
+
+
+#qna {width:1100px; height:100px; background-color: white; margin:0 auto;}
+#qna >h3 {font-size:14px;float:left; width:300px;}
+#qna > select, button {float:right;height:20px; margin:5px;}
+#qna > table {height:50px; width:100%;text-align:center;font-size:13px;border-bottom: 1px solid gray;border-top: 1px solid gray;}
+#qna  td:first-of-type {width:100px;}
+#qna  td:nth-of-type(2) {text-align:left;width:700px;}
+#qna  td:nth-of-type(3) {width:150px;text-align:left;}
+#qna  td:nth-of-type(4) {width:100px;text-align:left;}
+#qna > table, tr, td {padding:20px 0 0 0;}
+#qna >button {background-color: rgb(209, 5, 5);color:#fff;font-weight: bold;border:none; font-size: 11px;padding:2px 7px;}
+#qna > h3 {font-size: 18px; font-weight: bold;padding:5px;}
+#qna > h3 >span {font-size:10px;letter-spacing:1.5px; margin:0 10px;}
+
+#info {width:1100px; height:400px; background-color: pink;margin:0 auto;}
+

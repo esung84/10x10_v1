@@ -1,0 +1,24 @@
+[{
+    "href":"sub.html",
+    "src":"img/1.jpg",
+    "alt":"육아템",
+    "title":"육아는 역시 템빨!<br>에시앙 육아용품 최저가",
+    "discount":"~35%",
+    "price":"7,020원~"
+},
+{
+    "href":"sub.html",
+    "src":"img/2.jpg",
+    "alt":"봄양말",
+    "title":"산뜻한 컬러로 체인지!<br>봄양말 클리어런스 세일",
+    "discount":"~48%",
+    "price":"9,900원~"
+},
+{
+    "href":"sub.html",
+    "src":"img/3.jpg",
+    "alt":"무선 충전기",
+    "title":"깔끔하고 빠르게 충전!<br>무선 충전 거치대 모음",
+    "discount":"~60%",
+    "price":"9,900원~"
+}]

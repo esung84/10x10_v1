@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+#wrap {width:100%; background-color: #eee;height: auto;}
+#sub-wrap {width:850px; height:1500px; margin:0 auto; padding: 100px 0; color:#000;}
+.account1 {padding:30px 20px 0 200px;;width:400px; height:150px; margin:0 10px; background-image:url(../img/sign_logo.png);background-size:cover; float:left; border:1px solid #ddd;}
+.account1 > h3 {margin:10px 0;width:170px;;font-size:20px; font-weight: bold; color:#000;}
+.account1 > p {font-size:12px;;width:170px;line-height:18px; color:#555; letter-spacing:-0.5px;}
+.account2 {padding:30px 20px 0 200px;;width:400px; height:150px; margin:0 10px; background-image:url(../img/biz_logo.png);background-size:cover; float:left; border:1px solid #ddd;}
+.account2 > h3 {margin:10px 0;width:170px;;font-size:20px; font-weight: bold; color:#666;}
+.account2 > p {font-size:12px;;width:170px;line-height:18px; color:#555; letter-spacing:-0.5px;}
+
+#sign-up {width:850px; height:1150px; background-color: #fff;float:left; margin:50px 0; padding:50px; border-top:2px solid red;}
+#sign-up > input[type="text"] {width:740px;height:50px; background-color:#fff; margin:5px 10px; padding: 15px; border:1px solid #ddd; float:left;}
+#sign-up > input[type="password"] {width:740px;height:50px; background-color:#fff; margin:5px 10px; padding: 15px; border:1px solid #ddd; float:left;}
+#sign-up  input:focus {outline:none; border:1px solid red;}
+#sign-up  select:focus {outline:none; border:1px solid red;}
+#sign-up > input:nth-of-type(4) {width:565px;margin:5px 5px 5px 10px;}
+#sign-up > input:nth-of-type(6) {width:450px;margin:5px 10px 5px 10px;}
+.phone input {width:170px; height:50px;background-color:#fff; margin:5px 10px; padding: 15px; border:1px solid #ddd;}
+#sign-up button {width:165px; height:50px; background-color:#b8b6b6;color:white;font-weight: bold; font-size:14px;border:none; margin:5px 0 10px 5px;}
+#sign-up button:hover {cursor:pointer; background-color:red;transition:0.5s;}
+
+.underline {width:100%; height:30px; border-top:1px solid #ddd;}
+#sign-up > h3 {font-size:20px; line-height:50px; font-weight: bold;color:#666; margin: 0 0 10px 10px;}
+.email {width:220px; height:50px;margin:5px 0px 5px 25px;;border:1px solid #ddd; padding:5px;}
+#sign-up span {font-size:14px; font-size:#666; font-weight:bold; margin:5px 5px; }
+label {font-size:14px; font-size:#666; font-weight:bold; line-height:80px;margin:10px 30px 0 10px;}
+.birth {width:200px; height:50px;margin:5px 0px 5px 10px;;border:1px solid #ddd; padding:5px 10px; font-weight: bold;}
+input[type="radio"] {width:15px; height:15px; margin:0 0 50px 35px;}
+#agreement {width:750px; height:220px; margin:0 auto;border:1px solid #ddd; padding:40px 20px;}
+#yes_all {width:200px; height:100%;float:left;padding:60px 10px;}
+#agree{width:340px; height:150px; margin:0 auto;}
+#agree > p {font-size:12px;  display:inline-block;margin:5px;letter-spacing:-1px;}
+input[type="submit"] {width:200px; height:50px; background-color: red; color:white; border:none;margin:30px 38%;}
